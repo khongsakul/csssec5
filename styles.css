@@ -1,0 +1,135 @@
+body {
+  margin: 0;
+   text-align: center;
+   font-family: 'Nanum Gothic', sans-serif;
+}
+h1 {
+  color: #9c5518;
+  margin: 50px;
+  font-size: 4.625rem;
+  font-family: 'Sacramento', cursive;
+}
+
+h2 {
+ color: #9c5518;
+  font-family: 'Handlee', cursive;
+  font-size: 2.2rem;
+  font-weight: normal;
+}
+
+h3{
+  color: #ef962d;
+  font-family: 'Handlee', cursive;
+}
+
+p {
+    line-height: 2;
+}
+
+hr {
+  border: dotted #9c5518 6px;
+  border-bottom: none;
+  width: 5%;
+    margin: 80px auto;
+}
+
+a {
+  font-weight: bold;
+  color:  #9c5518;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #b49c73;
+}
+
+.top-container {
+  background-color:  #b49c73;
+position: relative;
+  padding-top: 30px;
+}
+.middle-container {
+ margin: 100px 0;
+}
+
+.bottom-container {
+  background-color: #b49c73;
+  padding: 50px 0 20px;
+}
+
+.traveller {
+text-decoration: underline;
+}
+
+.top-star {
+  position: absolute;
+  right: 50px;
+  left: 240px;
+  bottom: 510px;
+}
+.bottom-star {
+  position: absolute;
+  left: 800px;
+  bottom: 350px;
+
+}
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.and {
+  text-decoration: underline;
+}
+.intro {
+  width: 45%;
+  margin: auto;
+}
+
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.Journalism {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.Travelling {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.testbutton {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  text-shadow: 2px 1px 0 #b49c73;
+  box-shadow: 1px 1px 1px #b49c73;
+  padding: 10px 25px;
+  -moz-border-radius: 9px;
+  -webkit-border-radius: 9px;
+  border-radius: 9px;
+  border: 1px solid #b49c73;
+  background:  #ef962d;
+  background: linear-gradient(top,  #b49c73,  #ef962d);
+  background: -ms-linear-gradient(top,  #b49c73,  #7c3c21);
+  background: -webkit-gradient(linear, left top, left bottom, from(#b49c73), to(#7c3c21));
+  background: -moz-linear-gradient(top,  #b49c73,  #7c3c21);
+}
+.testbutton:hover {
+  color: #ef962d !important;
+  background: #ef962d;
+}
+
+.copyright {
+  color: #ef962d;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
